@@ -1,5 +1,9 @@
 # Change log
 
+## v4.0.0 _(12-03-2021)_
+- forked by Dann Bonderff (Badane)
+- replace all :alias" with unicodes 
+
 ## v3.2.0 _(03-02-2018)_
 
 - :sparkles: add 🤡 Mocking things
