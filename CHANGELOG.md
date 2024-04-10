@@ -1,5 +1,9 @@
 # Change log
 
+## v4.1.0 _(10-04-2024)_
+- delete CI/CD related snippets
+- add authentication/cleaning/web related snippets
+
 ## v4.0.0 _(12-03-2021)_
 - forked by Dann Bonderff (Badane)
 - replace all :alias" with unicodes 

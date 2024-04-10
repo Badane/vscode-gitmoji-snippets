@@ -51,25 +51,29 @@
     "prefix": "gm fix security",
     "body": "🔒fix $1"
   },
-  "🍎 Fixing something on macOS": {
+  "🍎 Coding something on macOS": {
     "prefix": "gm fix macos",
-    "body": "🍎fix $1"
+    "body": "🍎$1"
   },
-  "🐧 Fixing something on Linux": {
+  "🐧 Coding something on Linux": {
     "prefix": "gm fix linux",
-    "body": "🐧fix $1"
+    "body": "🐧$1"
   },
-  "🏁 Fixing something on Windows": {
+  "🏁 Coding something on Windows": {
     "prefix": "gm fix windows",
-    "body": "🏁fix $1"
+    "body": "🏁$1"
   },
-  "🤖 Fixing something on Android": {
+  "🤖 Coding something on Android": {
     "prefix": "gm fix android",
-    "body": "🤖fix $1"
+    "body": "🤖$1"
   },
-  "🍏 Fixing something on iOS": {
+  "🍏 Coding something on iOS": {
     "prefix": "gm fix ios",
-    "body": "🍏fix $1"
+    "body": "🍏$1"
+  },
+  "🕸️ Coding something on Web": {
+    "prefix": "gm fix web",
+    "body": "🕸️$1"
   },
   "🔖 Releasing / Version tags": {
     "prefix": "gm release version tag",
@@ -87,10 +91,6 @@
     "prefix": "gm work progress",
     "body": "🚧$1"
   },
-  "💚 Fixing CI Build": {
-    "prefix": "gm fix ci build",
-    "body": "💚$1"
-  },
   "⬆️ Upgrading dependencies": {
     "prefix": "gm update dependency",
     "body": "⬆️$1"
@@ -98,10 +98,6 @@
   "⬇️ Downgrading dependencies": {
     "prefix": "gm update dependency",
     "body": "⬇️$1"
-  },
-  "👷 Adding CI build system": {
-    "prefix": "gm add ci build",
-    "body": "👷$1"
   },
   "📈 Adding analytics or tracking code": {
     "prefix": "gm add analytics tracking code",
@@ -115,13 +111,13 @@
     "prefix": "gm remove dependency",
     "body": "➖remove $1"
   },
-  "🐳 Work about Docker": {
-    "prefix": "gm work docker",
-    "body": "🐳$1"
-  },
   "➕ Adding a dependency": {
     "prefix": "gm add dependency",
     "body": "➕add $1"
+  },
+  "🐳 Work about Docker": {
+    "prefix": "gm work docker",
+    "body": "🐳$1"
   },
   "🔧 Changing configuration files": {
     "prefix": "gm update file config",
@@ -195,10 +191,6 @@
     "prefix": "gm code documentation",
     "body": "💡document $1"
   },
-  "🍻 Writing code drunkenly": {
-    "prefix": "gm code drunk beer",
-    "body": "🍻drunkenly code $1"
-  },
   "💬 Adding text and literals": {
     "prefix": "gm add text",
     "body": "💬add $1"
@@ -219,10 +211,6 @@
     "prefix": "gm remove logs",
     "body": "🔇remove $1"
   },
-  "👥 Adding contributor(s)": {
-    "prefix": "gm add contributor",
-    "body": "👥add $1"
-  },
   "🚸 Improving user experience / usability": {
     "prefix": "gm improve ux user experience usability",
     "body": "🚸improve $1"
@@ -238,5 +226,13 @@
   "🤡 Mocking things": {
     "prefix": "gm mocking",
     "body": "🤡mock $1"
+  },
+  "🚪 Add authentication": {
+    "prefix": "gm add authentication",
+    "body": "🚪add $1"
+  },
+  "🧹 Clean code": {
+    "prefix": "gm clean",
+    "body": "🧹$1"
   }
 }
